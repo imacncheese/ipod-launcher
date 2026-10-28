@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- body -->
+    <path
+        android:fillColor="#1C1C1C"
+        android:pathData="M22,4 H86 A18,18 0 0 1 104,22 V86 A18,18 0 0 1 86,104 H22 A18,18 0 0 1 4,86 V22 A18,18 0 0 1 22,4 Z" />
+
+    <!-- screen bezel -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:pathData="M18,11 H90 A4,4 0 0 1 94,15 V49 A4,4 0 0 1 90,53 H18 A4,4 0 0 1 14,49 V15 A4,4 0 0 1 18,11 Z" />
+
+    <!-- screen -->
+    <path
+        android:fillColor="#EFEFEC"
+        android:pathData="M19,14 H89 A1,1 0 0 1 90,15 V45 A1,1 0 0 1 89,46 H19 A1,1 0 0 1 18,45 V15 A1,1 0 0 1 19,14 Z" />
+
+    <!-- menu title bar -->
+    <path
+        android:fillColor="#C9C9C4"
+        android:pathData="M18,14 H90 V22 H18 Z" />
+
+    <!-- selected row -->
+    <path
+        android:fillColor="#2A6FC4"
+        android:pathData="M18,26 H90 V34 H18 Z" />
+
+    <!-- click wheel ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#BEBEBA"
+        android:strokeWidth="7"
+        android:pathData="M54,53 a25,25 0 1,1 0,50 a25,25 0 1,1 0,-50" />
+
+    <!-- center button -->
+    <path
+        android:fillColor="#EDEDEA"
+        android:pathData="M54,66 a12,12 0 1,1 0,24 a12,12 0 1,1 0,-24" />
+</vector>

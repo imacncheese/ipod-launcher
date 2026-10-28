@@ -1,0 +1,23 @@
+# Build output
+build/
+
+# Local toolchain (JDK, build-tools, android.jar, portable git)
+toolchain/
+
+# Signing material — never publish private keys
+signing/
+*.keystore
+*.jks
+
+# Local scratch / test media
+probe/
+testmedia/
+shots/
+*.apk
+
+# Editor / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+frag_*.txt
